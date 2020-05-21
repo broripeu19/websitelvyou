@@ -1,0 +1,56 @@
+body {
+	background-image: url("./image/1.jpg");
+	height: 1000px;
+	position: relative;
+}
+h2 {
+	text-align: center;
+	margin-top: 100px;
+	font-size: 46px;
+	color: red;
+	border: 1px solid black;
+	background: yellow;
+}
+#yes, #no1, #no2, #no3, #no4, #no5, #no6, #end{
+	border: none;
+	width: 200px;
+	height: 50px;
+	background: red;
+	color: yellow;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 20px;
+}
+#no2, #no3, #no4, #no5, #no6, #end {
+	display: none;
+}
+#yes, #no1 {
+	margin-left: 45%;
+}
+#yes {
+	margin-bottom: 50px;
+}
+#no3 {
+	position: absolute;
+	margin-left: 500px;
+}
+#no4 {
+	position: absolute;
+	margin-left: 700px;
+	margin-top: 100px;
+}
+#no5 {
+	position: absolute;
+	margin-left: 400px;
+	margin-top: 100px;
+}
+#no6 {
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+#end {
+	position: absolute;
+	margin-left: 800px;
+	margin-top: 10px;
+}
